@@ -1,0 +1,20 @@
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 12px;
+    padding: 18px 30px;
+    background-color: rgb(127, 189, 64);
+}
+.link{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.link:global.active{
+    text-decoration: underline;
+}
+.link:hover{
+    color: rgb(231, 8, 52);
+    transition: .5s;
+}

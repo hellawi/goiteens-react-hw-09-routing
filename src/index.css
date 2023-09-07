@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Irish+Grover&family=Montserrat+Alternates&family=Open+Sans&family=Roboto:wght@300&display=swap');
+:root{
+    --font-main: sans-serif;
+    --font-error: Roboto;
+}
+body{
+    font-family: var(--font-main);
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+.home-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}

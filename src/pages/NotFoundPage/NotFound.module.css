@@ -1,0 +1,26 @@
+.notfound-box{
+    font-family: var(--font-error);
+}
+.error-box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.type-error{
+    font-weight: 500;
+    font-size: 250px;
+}
+.notfound{
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.notfound-text-box, .link-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toHome:hover{
+    color: red;
+}
