@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <div className='home-page'>
         <img src="/favicon.jpeg" alt="" />
-        <p>HOME PAGE</p>
+        <p className='home-title'>HOME PAGE</p>
     </div>
   )
 }

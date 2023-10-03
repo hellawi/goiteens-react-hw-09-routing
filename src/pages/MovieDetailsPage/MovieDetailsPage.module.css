@@ -1,0 +1,21 @@
+.header-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.movie-details-container{
+    display: block;
+    margin: 0 auto;
+    width: 50rem;
+}
+.add-info-prebox{
+    display: flex;
+    justify-content: center;
+}
+.add-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 20rem;
+}
