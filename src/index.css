@@ -10,7 +10,7 @@ body{
     font-size: 30px;
     text-align: center;
 }
-.home-page{
+.home-header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,4 +21,10 @@ img{
 }
 a:hover{
     color: red;
+}
+.no-results{
+    color: red;
+}
+.main-trending{
+    margin-left: 15px;
 }

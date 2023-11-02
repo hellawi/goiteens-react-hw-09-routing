@@ -19,3 +19,8 @@
     border: 2px solid black;
     width: 20rem;
 }
+.poster-img{
+    width: 200px;
+    height: 300px;
+    margin-top: 20px;
+}

@@ -1,0 +1,30 @@
+/* paginate */
+.pagination {
+  margin-left: 50rem;
+  list-style: none;
+  height: 31.5px;
+  width: 31.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.page-item {
+  border: 2px solid black;
+  border-radius: 50%;
+  list-style: none;
+  padding: 2px 12px;
+  margin: 12px 12px;
+  height: 31.5px;
+  width: 31.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+.active-paginate{
+  color: red;
+  font-weight: bold;
+}
